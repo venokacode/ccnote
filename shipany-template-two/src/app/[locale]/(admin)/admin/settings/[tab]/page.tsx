@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { PERMISSIONS, requireAllPermissions } from '@/core/rbac';
 import { Header, Main, MainHeader } from '@/shared/blocks/dashboard';
 import { FormCard } from '@/shared/blocks/form';
-import { getConfigs, saveConfigs } from '@/shared/models/config';
+import { getAllConfigs, saveConfigs } from '@/shared/models/config';
 import { getUserInfo } from '@/shared/models/user';
 import {
   getSettingGroups,
@@ -29,7 +29,8 @@ export default async function SettingsPage({
     locale,
   });
 
-  const configs = await getConfigs();
+  // Use getAllConfigs to include environment variable overrides
+  const configs = await getAllConfigs();
 
   const settingGroups = await getSettingGroups();
   const settings = await getSettings();
@@ -46,17 +47,33 @@ export default async function SettingsPage({
   const handleSubmit = async (data: FormData, passby: any) => {
     'use server';
 
+    // Re-verify write permission before saving
+    await requireAllPermissions({
+      codes: [PERMISSIONS.SETTINGS_WRITE],
+      redirectUrl: '/admin/no-permission',
+      locale,
+    });
+
     const user = await getUserInfo();
 
     if (!user) {
       throw new Error('no auth');
     }
 
+    // Get allowed setting names to prevent unauthorized field updates
+    const allowedSettings = settings
+      .filter((setting) => !setting.attributes?.readonly)
+      .map((setting) => setting.name);
+
+    // Only update allowed fields from form data
+    const updatedConfigs = { ...configs };
     data.forEach((value, name) => {
-      configs[name] = value as string;
+      if (allowedSettings.includes(name)) {
+        updatedConfigs[name] = value as string;
+      }
     });
 
-    await saveConfigs(configs);
+    await saveConfigs(updatedConfigs);
 
     return {
       status: 'success',
