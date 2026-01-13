@@ -21,9 +21,10 @@ export default async function SettingsPage({
   const { locale, tab } = await params;
   setRequestLocale(locale);
 
-  // Check if user has permission to read settings
+  // Check if user has permission to write settings
+  // Note: Write permission is required because this page allows modifying settings
   await requireAllPermissions({
-    codes: [PERMISSIONS.SETTINGS_READ, PERMISSIONS.SETTINGS_WRITE],
+    codes: [PERMISSIONS.SETTINGS_WRITE],
     redirectUrl: '/admin/no-permission',
     locale,
   });

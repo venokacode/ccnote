@@ -72,6 +72,8 @@ export function FormCard({
           {title && <CardTitle>{title}</CardTitle>}
           {description && (
             <CardDescription
+              // SECURITY NOTE: description content comes from trusted server-side settings only
+              // Never pass user-controlled content to this prop to prevent XSS attacks
               dangerouslySetInnerHTML={{ __html: description }}
             />
           )}
