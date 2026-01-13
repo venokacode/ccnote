@@ -1,0 +1,236 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "高效管理客服工单",
+        "highlight_text": "客服工单",
+        "description": "PD Note 是一个在线笔记、看板和进展追踪平台，为公司内部客服团队高效处理工单而设计。",
+        "announcement": {
+          "badge": "全新",
+          "title": "🎉 欢迎使用 PD Note",
+          "url": "/#features"
+        },
+        "tip": "🚀 提升您的支持团队生产力",
+        "buttons": [
+          {
+            "title": "立即开始",
+            "icon": "Zap",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "了解更多",
+            "icon": "BookOpenText",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": {
+          "src": "https://picsum.photos/1200/800?random=1",
+          "alt": "PD Note 控制面板",
+          "width": 1200,
+          "height": 800
+        },
+        "image_invert": {
+          "src": "https://picsum.photos/1200/800?random=2",
+          "alt": "PD Note 控制面板",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/1920/1080?random=3",
+          "alt": "背景"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "PD Note 是什么？",
+        "label": "产品简介",
+        "description": "PD Note 是一个综合性工单管理平台，帮助客服团队高效地组织、跟踪和解决客户问题。",
+        "image": {
+          "src": "https://picsum.photos/800/600?random=4",
+          "alt": "PD Note 平台"
+        },
+        "items": [
+          {
+            "title": "工单管理",
+            "description": "在集中的控制面板中创建、分配和跟踪客服工单。",
+            "icon": "RiFileList3Line",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=5",
+              "alt": "工单管理"
+            }
+          },
+          {
+            "title": "看板视图",
+            "description": "使用直观的看板可视化工单流程，促进团队协作。",
+            "icon": "RiDashboardLine",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=6",
+              "alt": "看板"
+            }
+          },
+          {
+            "title": "进展追踪",
+            "description": "通过实时进度指标监控工单状态和团队表现。",
+            "icon": "RiBarChart2Line",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=7",
+              "alt": "进展追踪"
+            }
+          },
+          {
+            "title": "笔记功能",
+            "description": "为每个工单保留详细笔记和文档，保持上下文。",
+            "icon": "RiStickyNoteLine",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=8",
+              "alt": "笔记"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "为何选择 PD Note",
+        "label": "产品优势",
+        "description": "使用强大的工单管理工具简化客服工作流程。",
+        "items": [
+          {
+            "title": "集中管理工单",
+            "description": "将所有客服工单集中在一处，轻松组织、分配和跟踪。",
+            "icon": "RiInboxLine",
+            "image": {
+              "src": "https://picsum.photos/800/500?random=9",
+              "alt": "集中管理"
+            }
+          },
+          {
+            "title": "可视化工作流",
+            "description": "使用看板可视化工单进度，有效管理团队工作负载。",
+            "icon": "RiLayoutGridLine",
+            "image": {
+              "src": "https://picsum.photos/800/500?random=10",
+              "alt": "可视化工作流"
+            }
+          },
+          {
+            "title": "团队协作",
+            "description": "通过共享笔记、评论和实时更新实现客服团队无缝协作。",
+            "icon": "RiTeamLine",
+            "image": {
+              "src": "https://picsum.photos/800/500?random=11",
+              "alt": "团队协作"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "PD Note 核心功能",
+        "description": "您的支持团队高效处理工单和提供优质客户服务所需的一切。",
+        "items": [
+          {
+            "title": "工单创建与分配",
+            "description": "快速创建工单并分配给团队成员，支持自定义优先级。",
+            "icon": "RiAddCircleLine"
+          },
+          {
+            "title": "看板视图",
+            "description": "通过拖放式看板直观管理工单工作流。",
+            "icon": "RiLayoutGridLine"
+          },
+          {
+            "title": "进展追踪",
+            "description": "通过实时仪表板和分析监控工单状态和团队表现。",
+            "icon": "RiBarChartBoxLine"
+          },
+          {
+            "title": "笔记与文档",
+            "description": "为每个工单维护详细笔记和上下文，确保服务质量。",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "谷歌登录",
+            "description": "通过 Google OAuth 为团队成员提供安全便捷的身份验证。",
+            "icon": "RiGoogleLine"
+          },
+          {
+            "title": "团队协作",
+            "description": "通过评论、提及和活动跟踪实现无缝协作。",
+            "icon": "RiTeamLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "关于 PD Note 的常见问题",
+        "description": "还有其他问题？请联系 TODO: 设置您的支持邮箱。",
+        "items": [
+          {
+            "question": "PD Note 是什么？适合谁使用？",
+            "answer": "PD Note 是为内部客服团队设计的工单管理平台。它帮助团队使用看板、笔记和进展追踪高效地组织、跟踪和解决客户问题。"
+          },
+          {
+            "question": "如何登录 PD Note？",
+            "answer": "PD Note 支持 Google OAuth 登录，安全便捷。只需使用您的公司 Google 账户即可登录。"
+          },
+          {
+            "question": "可以自定义看板工作流吗？",
+            "answer": "可以，您可以自定义工单状态和工作流阶段，以匹配您团队的支持流程。"
+          },
+          {
+            "question": "进展追踪如何工作？",
+            "answer": "PD Note 提供实时仪表板，显示工单状态、团队绩效指标和进度指标，帮助您监控支持运营。"
+          },
+          {
+            "question": "多个团队成员可以处理同一工单吗？",
+            "answer": "可以，PD Note 支持团队协作，提供评论、提及和每个工单的共享笔记等功能。"
+          },
+          {
+            "question": "我的数据安全吗？",
+            "answer": "是的，PD Note 使用行业标准的安全实践，包括安全身份验证和数据加密来保护您的支持数据。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "准备好简化您的支持工作流程了吗？",
+        "description": "立即开始使用 PD Note，提升团队生产力。",
+        "buttons": [
+          {
+            "title": "立即开始",
+            "url": "https://prodentsupport.com",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "了解更多",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "BookOpenText"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

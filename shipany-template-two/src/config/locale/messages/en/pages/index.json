@@ -1,0 +1,420 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Streamline Your Customer Support Tickets",
+        "highlight_text": "Customer Support",
+        "description": "PD Note is an online note, kanban and progress tracking platform designed for internal customer support teams to handle tickets efficiently.",
+        "announcement": {
+          "badge": "New",
+          "title": "🎉 Welcome to PD Note",
+          "url": "/#features"
+        },
+        "tip": "🚀 Boost your support team productivity",
+        "buttons": [
+          {
+            "title": "Get Started",
+            "icon": "Zap",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Learn More",
+            "icon": "BookOpenText",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": false,
+        "avatars_tip": "",
+        "show_award": false,
+        "image": {
+          "src": "https://picsum.photos/1200/800?random=1",
+          "alt": "PD Note Dashboard",
+          "width": 1200,
+          "height": 800
+        },
+        "image_invert": {
+          "src": "https://picsum.photos/1200/800?random=2",
+          "alt": "PD Note Dashboard",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "https://picsum.photos/1920/1080?random=3",
+          "alt": "background"
+        }
+      },
+      "logos": {
+        "id": "logos",
+        "title": "ShipAny is built on the shoulders of giants",
+        "items": [
+          {
+            "title": "Next.js",
+            "image": {
+              "src": "/imgs/logos/nextjs.svg",
+              "alt": "Next.js"
+            }
+          },
+          {
+            "title": "React",
+            "image": {
+              "src": "/imgs/logos/react.svg",
+              "alt": "React"
+            }
+          },
+          {
+            "title": "TailwindCSS",
+            "image": {
+              "src": "/imgs/logos/tailwindcss.svg",
+              "alt": "TailwindCSS"
+            }
+          },
+          {
+            "title": "Shadcn/UI",
+            "image": {
+              "src": "/imgs/logos/shadcn.svg",
+              "alt": "Shadcn/UI"
+            }
+          },
+          {
+            "title": "Vercel",
+            "image": {
+              "src": "/imgs/logos/vercel.svg",
+              "alt": "Vercel"
+            }
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "What is PD Note",
+        "label": "Introduce",
+        "description": "PD Note is a comprehensive ticket management platform that helps customer support teams organize, track, and resolve customer issues efficiently.",
+        "image": {
+          "src": "https://picsum.photos/800/600?random=4",
+          "alt": "PD Note Platform"
+        },
+        "items": [
+          {
+            "title": "Ticket Management",
+            "description": "Create, assign, and track customer support tickets from a centralized dashboard.",
+            "icon": "RiFileList3Line",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=5",
+              "alt": "Ticket Management"
+            }
+          },
+          {
+            "title": "Kanban Board",
+            "description": "Visualize ticket workflow with intuitive kanban boards for better team collaboration.",
+            "icon": "RiDashboardLine",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=6",
+              "alt": "Kanban Board"
+            }
+          },
+          {
+            "title": "Progress Tracking",
+            "description": "Monitor ticket status and team performance with real-time progress indicators.",
+            "icon": "RiBarChart2Line",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=7",
+              "alt": "Progress Tracking"
+            }
+          },
+          {
+            "title": "Note Taking",
+            "description": "Keep detailed notes and documentation for each ticket to maintain context.",
+            "icon": "RiStickyNoteLine",
+            "image": {
+              "src": "https://picsum.photos/600/400?random=8",
+              "alt": "Note Taking"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Why Choose PD Note",
+        "label": "Benefits",
+        "description": "Streamline your customer support workflow with powerful tools designed for efficient ticket management.",
+        "items": [
+          {
+            "title": "Centralized Ticket Management",
+            "description": "Keep all customer support tickets in one place with easy organization, assignment, and tracking capabilities.",
+            "icon": "RiInboxLine",
+            "image": {
+              "src": "https://picsum.photos/800/500?random=9",
+              "alt": "Centralized Management"
+            }
+          },
+          {
+            "title": "Visual Workflow",
+            "description": "Use kanban boards to visualize ticket progress and manage team workload effectively.",
+            "icon": "RiLayoutGridLine",
+            "image": {
+              "src": "https://picsum.photos/800/500?random=10",
+              "alt": "Visual Workflow"
+            }
+          },
+          {
+            "title": "Team Collaboration",
+            "description": "Enable seamless collaboration with shared notes, comments, and real-time updates for your support team.",
+            "icon": "RiTeamLine",
+            "image": {
+              "src": "https://picsum.photos/800/500?random=11",
+              "alt": "Team Collaboration"
+            }
+          }
+        ]
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "usage",
+        "title": "How to Launch with ShipAny",
+        "description": "Get your AI SaaS startup running in three simple steps:",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "usage"
+        },
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "Get ShipAny",
+            "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
+            "image": {
+              "src": "/imgs/features/5.png",
+              "alt": "usage"
+            }
+          },
+          {
+            "title": "Start Your Project",
+            "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
+            "image": {
+              "src": "/imgs/features/6.png",
+              "alt": "usage"
+            }
+          },
+          {
+            "title": "Customize Your Project",
+            "description": "Modify the template with your data and contents. Specific AI functionality needs.",
+            "image": {
+              "src": "/imgs/features/7.png",
+              "alt": "usage"
+            }
+          },
+          {
+            "title": "Deploy to Production",
+            "description": "Deploy your project to production with a few steps and start serving customers immediately.",
+            "image": {
+              "src": "/imgs/features/8.png",
+              "alt": "usage"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "features": {
+        "id": "features",
+        "title": "Key Features of PD Note",
+        "description": "Everything your support team needs to handle tickets efficiently and deliver exceptional customer service.",
+        "items": [
+          {
+            "title": "Ticket Creation & Assignment",
+            "description": "Quickly create tickets and assign them to team members with customizable priority levels.",
+            "icon": "RiAddCircleLine"
+          },
+          {
+            "title": "Kanban Board View",
+            "description": "Visualize ticket workflow with drag-and-drop kanban boards for intuitive management.",
+            "icon": "RiLayoutGridLine"
+          },
+          {
+            "title": "Progress Tracking",
+            "description": "Monitor ticket status and team performance with real-time dashboards and analytics.",
+            "icon": "RiBarChartBoxLine"
+          },
+          {
+            "title": "Note & Documentation",
+            "description": "Maintain detailed notes and context for each ticket to ensure quality support.",
+            "icon": "RiFileTextLine"
+          },
+          {
+            "title": "Google Login",
+            "description": "Secure and convenient authentication with Google OAuth for your team members.",
+            "icon": "RiGoogleLine"
+          },
+          {
+            "title": "Team Collaboration",
+            "description": "Enable seamless collaboration with comments, mentions, and activity tracking.",
+            "icon": "RiTeamLine"
+          }
+        ]
+      },
+      "stats": {
+        "id": "stats",
+        "title": "People Love ShipAny",
+        "description": "for it's easy to use and fast to ship.",
+        "items": [
+          {
+            "title": "999+",
+            "description": "Customers"
+          },
+          {
+            "title": "200+",
+            "description": "Blocks"
+          },
+          {
+            "title": "50+",
+            "description": "Templates"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "title": "What Users Say About ShipAny",
+        "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
+        "items": [
+          {
+            "name": "David Chen",
+            "role": "Founder of AIWallpaper.shop",
+            "quote": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
+            "image": {
+              "src": "/imgs/avatars/1.png",
+              "alt": "david"
+            }
+          },
+          {
+            "name": "Rachel Kim",
+            "role": "CTO at HeyBeauty.ai",
+            "quote": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
+            "image": {
+              "src": "/imgs/avatars/2.png",
+              "alt": "rachel"
+            }
+          },
+          {
+            "name": "Marcus Thompson",
+            "role": "Solo Developer",
+            "quote": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
+            "image": {
+              "src": "/imgs/avatars/3.png",
+              "alt": "marcus"
+            }
+          },
+          {
+            "name": "Sofia Garcia",
+            "role": "CEO of Melodisco",
+            "quote": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
+            "image": {
+              "src": "/imgs/avatars/4.png",
+              "alt": "sofia"
+            }
+          },
+          {
+            "name": "James Wilson",
+            "role": "Tech Lead at GPTs.works",
+            "quote": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
+            "image": {
+              "src": "/imgs/avatars/5.png",
+              "alt": "james"
+            }
+          },
+          {
+            "name": "Anna Zhang",
+            "role": "Startup Founder",
+            "quote": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
+            "image": {
+              "src": "/imgs/avatars/6.png",
+              "alt": "anna"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently Asked Questions About PD Note",
+        "description": "Have another question? Contact us at TODO: set your support email.",
+        "items": [
+          {
+            "question": "What is PD Note and who is it for?",
+            "answer": "PD Note is a ticket management platform designed for internal customer support teams. It helps teams organize, track, and resolve customer issues efficiently using kanban boards, notes, and progress tracking."
+          },
+          {
+            "question": "How do I sign in to PD Note?",
+            "answer": "PD Note supports Google OAuth login for secure and convenient access. Simply use your company Google account to sign in."
+          },
+          {
+            "question": "Can I customize the kanban board workflow?",
+            "answer": "Yes, you can customize ticket statuses and workflow stages to match your team's support process."
+          },
+          {
+            "question": "How does progress tracking work?",
+            "answer": "PD Note provides real-time dashboards showing ticket status, team performance metrics, and progress indicators to help you monitor your support operations."
+          },
+          {
+            "question": "Can multiple team members work on the same ticket?",
+            "answer": "Yes, PD Note supports team collaboration with features like comments, mentions, and shared notes for each ticket."
+          },
+          {
+            "question": "Is my data secure?",
+            "answer": "Yes, PD Note uses industry-standard security practices including secure authentication and data encryption to protect your support data."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Ready to Streamline Your Support Workflow?",
+        "description": "Start using PD Note today and boost your team's productivity.",
+        "buttons": [
+          {
+            "title": "Get Started",
+            "url": "https://prodentsupport.com",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Learn More",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "BookOpenText"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "Subscribe to our newsletter",
+        "description": "Get the latest news and updates from ShipAny.",
+        "submit": {
+          "input": {
+            "placeholder": "Enter your email"
+          },
+          "button": {
+            "title": "Subscribe"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}
